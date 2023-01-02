@@ -1,0 +1,163 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+ 
+
+#site-title {
+  color: #2d393f;
+  margin-top: 20px;
+  text-shadow: 8px 4px 4px lightblue;
+  font-weight: 700;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.navbar {
+  background-color: lightskyblue;
+}
+.primary-menu li a {
+  color: #0a58ca;
+  font-weight: 700;
+  font-size: 18px;
+}
+.primary-menu li a:hover {
+  color: white;
+}
+
+/* carousle section  */
+.container-fluid {
+  overflow: hidden;
+}
+@media screen and (max-width: 900px) {
+  .carousel-item img {
+    height: 300px;
+  }
+}
+.carousel-text {
+  background-color: white;
+  color: olive;
+}
+/* carousel ended  */
+
+/* section-information section start  */
+.information-header {
+  text-align: center;
+  font-weight: 800;
+  color: darkcyan;
+  font-size: 20px;
+  font-size: 30px;
+}
+.information-title {
+  text-align: center;
+  font-family: helvetica;
+  font-weight: 700;
+}
+.view-all {
+  text-align: right;
+  margin-left: 100px;
+  font-size: 16px;
+}
+.view-all a {
+  text-decoration: none;
+  /* text-align: right; */
+  color: rgb(102, 177, 202);
+}
+.view-all a:hover {
+  color: darkcya;
+}
+.information-img {
+  margin-left: 90px;
+}
+.information-item-name {
+  text-align: center;
+  font-size: 18px;
+  color: darkcyan;
+  font-weight: 700;
+}
+/* section-information section ends  */
+
+/* section-vehicle starts  */
+.card-body a {
+  text-decoration: none;
+}
+.vehicle-section-title {
+  color: rebeccapurple;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+}
+.vehicle-section-content {
+  margin-top: 30px;
+  font-size: 18px;
+  color: darkmagenta;
+  text-align: center;
+}
+/* section-vehicle ends  */
+
+/* our-mission section starts  */
+.our-mission-header {
+  text-align: center;
+  color: darkcyan;
+  font-weight: 700;
+  font-size: 35px;
+}
+.our-mission-content {
+  padding: 12px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: darkolivegreen;
+}
+.our-mission-img a img {
+  border-radius: 60%;
+}
+.our-product-title {
+  color: darkolivegreen;
+  font-weight: 700;
+}
+
+/* our-mission section ends  */
+
+/* whybest section starts */
+.whybest-title {
+  color: darkcyan;
+  font-size: 22px;
+  font-weight: 700;
+}
+.whybest-content {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+/* whybest section ends  */
+
+/* category blog part  */
+.card-body a .blog-title {
+  color: darkcyan;
+  font-weight: 700;
+}
+.blog-text a {
+  color: #5a769f;
+  font-size: 16px;
+}
+.blog-text a:hover {
+  color: darkcyan;
+}
+
+
+.sidebar-title a{
+    font-size: 18px;
+    color: darkcyan;
+    text-align: center;
+}
+.sidebar-title{
+    text-align: center;
+}
+.pagination .page-numbers{
+  border: 1px solid black;
+  margin-right: 8px;
+  width: 50px;
+  height: auto;
+  color: green;
+  text-decoration: none;
+}
